@@ -173,6 +173,10 @@
     <Compile Include="Migrations\201606100109447_PartnerRelation.Designer.cs">
       <DependentUpon>201606100109447_PartnerRelation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606121935136_AddPartnerValidations.cs" />
+    <Compile Include="Migrations\201606121935136_AddPartnerValidations.Designer.cs">
+      <DependentUpon>201606121935136_AddPartnerValidations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -285,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606100109447_PartnerRelation.resx">
       <DependentUpon>201606100109447_PartnerRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606121935136_AddPartnerValidations.resx">
+      <DependentUpon>201606121935136_AddPartnerValidations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
